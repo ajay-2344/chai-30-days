@@ -46,5 +46,26 @@ let valueInbool = Boolean(bool);
 console.log(valueInbool); // true
 console.log(typeof(valueInbool));
 
+// *********************************** Operations *****************
+ 
+console.log("1" +2+2); // this type of operation work accroding to first element given string then another number is convert as a string
+console.log(1 + "2"+"3");// first number given number then another string convert as a number
+
+console.log(+true);
+console.log(+"");
+
+let num1 ,num2 , num3;
+num1 = num2 = num3 = 2+3;
+console.log(num1);
+
+let counter = 100;
+let Output = 3 + ++counter;
+let output = 2 + counter++;
+console.log(Output);
+console.log(output);
+
+
+
+
 
  
